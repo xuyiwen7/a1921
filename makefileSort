@@ -1,0 +1,6 @@
+#Sort
+		
+text:sort.c  testsort.c
+		  gcc  sort.c  testsort.c -o text
+clean:
+		   rm text                         
