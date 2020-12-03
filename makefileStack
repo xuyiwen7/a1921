@@ -1,0 +1,5 @@
+#this is sample
+testCal:linkstack.c testlinkstack.c
+	gcc linkstack.c linkstack.h testlinkstack.c -o testlinkstack
+claen:
+	rm testCal
